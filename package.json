@@ -1,0 +1,15 @@
+{
+  "name": "orangehrm",
+  "version": "1.0.0",
+  "description": "Playwright TypeScript Automation Framework for OrangeHRM",
+  "license": "ISC",
+  "author": "Spandana R",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}

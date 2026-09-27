@@ -13,7 +13,7 @@ export class LoginPage {
         this.page = page;
         this.usernameInput = this.page.locator('input[name="username"]');
         this.passwordInput = this.page.locator('input[name="password"]');
-        this.loginButton = this.page.getByRole('button',{name:'Login'});
+        this.loginButton = this.page.getByRole('button',{name:"Login"});
         this.invalidCredentialMessage = this.page.getByRole("alert");
         this.usernameRequiredValidation = page.getByText("Required").first();
         this.passwordRequiredValidation = page.getByText("Required").last();
